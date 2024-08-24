@@ -1,0 +1,37 @@
+table{
+    margin: 50px auto;
+    border: 1px solid#ddd;
+    overflow: hidden;
+    border-collapse: collapse;
+    width: 80%;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
+    border-radius: 10px;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 16px;   
+}
+th{
+    background: rgb(41, 181, 41);
+    text-align: start;
+}       
+tr{
+    border: 1px solid #ddd;
+}
+tr:hover{
+    background: #f9f9f9;
+}
+.sky {
+    background:lightblue;
+}
+.blue{
+    background: skyblue;
+}
+.pink{
+    background: pink;
+}
+th, td{
+    border: none;
+}
